@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Coordinadore</title>
+</head>
+
+<body>
+<h3 align="center">Usuarios del Sistema</h3>
+<hr />
+<form action="procesarCoor.php" method="post" name="form" id="form">
+  <table width="853" border="0" align="center">
+    <tr>
+      <td width="293"><div align="right"><font size="3">Nombre: </font></div></td>
+      <td width="550"><input name="coordinador" type="text" size="40" /></td>
+    </tr>
+    <tr>
+      <td><div align="right"><font size="3">Nombre del Programa que Coordina:</font></div></td>
+      <td><label>
+       <input name="nombre_p" type="text" size="60" />
+      </label></td>
+    </tr>
+    <tr>
+      <td><div align="right"><font size="3">Cedula de Identidad:</font></div></td>
+      <td><input name="ced" type="text" size="20" /></td>
+    </tr>
+    <tr>
+      <td><div align="right"><font size="3">Telefono:</font></div></td>
+      <td><label>
+        <input name="tel" type="text" size="20" />
+      </label></td>
+    </tr>
+    <tr>
+      <td><div align="right"><font size="3">Cargo:</font></div></td>
+      <td><input name="cargo" type="text" size="30" /></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <p>&nbsp;          </p>
+        <p>
+          <input type="submit" name="insertar" value="Insertar" />
+          <input type="submit" name="eliminar" value="Eliminar" />
+          <input type="submit" name="actualizar" value="Actualizar" />
+          <input type="submit" name="mostrar" value="Mostrar" />
+          <input type="reset" name="Reset" value="Limpiar" />
+          </p>
+      </div></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

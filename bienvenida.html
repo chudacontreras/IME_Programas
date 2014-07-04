@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento sin t&iacute;tulo</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #FFFFFF;
+	
+	background-repeat: repeat;
+}
+-->
+</style>
+<script type="text/javascript">
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+</script>
+</head>
+
+<body onload="MM_CheckFlashVersion('6,0,79,0','El contenido de esta p&aacute;gina requiere una versi&oacute;n m&aacute;s reciente de Macromedia Flash Player. &iquest;Desea descargarla ahora?');">
+<div>
+  <p><strong><font color="#FF0000" size="5" face="Arial, Helvetica, sans-serif">Razon Social:</font></strong>El Instituto Municipal De Educaci&oacute;n, es una  instancia del Poder Ejecutivo Municipal; creado seg&uacute;n gaceta Municipal N&ordm;: 1369,  de fecha 05 de Mayo de 1999. La creaci&oacute;n del Instituto coloca al Municipio a la Vanguardia del Proceso  de Municipalizaci&oacute;n educativa, en todo el territorio nacional; brind&aacute;ndole  la&nbsp; oportunidad de ser considerado como  el &uacute;nico Municipio que tuvo la visi&oacute;n pol&iacute;tica para adecuarse a un proceso  irreversible de modernizaci&oacute;n de Estado. Tal como lo establece el art&iacute;culo 178  de la   Constituci&oacute;n Bolivariana de Venezuela el cual otorga al  Municipio la competencia de la administraci&oacute;n de la educaci&oacute;n inicial.</p>
+  <p><strong><font color="#FF0000" size="5" face="Arial, Helvetica, sans-serif">Misi&oacute;n:</font></strong>Formar un individuo capaz de identificarse  y consustanciarse con la realidad, valores, principios sociales, pol&iacute;ticos,  recreacionales y culturales del Municipio Iribarren.</p>
+  <p align="left"><strong><font color="#FF0000" size="5" face="Arial, Helvetica, sans-serif">Visi&oacute;n:</font></strong>Incorporar  al Municipio en la cogesti&oacute;n de programas educativos y de investigaci&oacute;n a  trav&eacute;s de convenios operativos ejecutados en el Estado en el &aacute;mbito de su  competencia por organismos Internacionales, Nacionales, Regionales, Juntas  Parroquiales, Vecinales, ONG, Universidades entre otros.</p>
+</div>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="576" height="512" align="baseline" title="as">
+  <param name="movie" value="presentpro1.swf" />
+  <param name="quality" value="high" /><param name="SCALE" value="exactfit" />
+  <embed src="presentpro1.swf" width="576" height="512" align="baseline" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" scale="exactfit" ></embed>
+</object>
+</body>
+</html>
